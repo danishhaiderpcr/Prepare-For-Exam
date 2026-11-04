@@ -21,7 +21,7 @@ from pypdf import PdfReader
 # --------------------------------------------------------------------------
 # Settings
 # --------------------------------------------------------------------------
-DEFAULT_MODEL = "gemini-flash-latest"
+DEFAULT_MODEL = "gemini-3.8-flash"
 MAX_CHAPTER_CHARS = 120_000      # chapter text sent to Gemini
 MIN_CHAPTER_CHARS = 300          # below this the chapter is too short to use
 SCANNED_THRESHOLD = 200          # PDF with less text than this is treated as scanned
